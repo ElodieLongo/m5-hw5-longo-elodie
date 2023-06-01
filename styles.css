@@ -1,5 +1,23 @@
-p{
-  padding: 40px;  
-  background-color: bisque;
-  width: 650px;
+body{
+max-width:700 ;
+margin: 20px auto;
+padding: 20;
+}
+
+.left {
+  float: left;
+}
+section {
+  box-sizing: border-box;
+  border: 3px solid blue;
+  width: 100%;
+  float: center;
+  padding: 20;
+  margin:20px auto; ;
+}
+img {
+  float:left
+}
+header > nav {
+  float: right;
 }

@@ -1,23 +1,76 @@
-body{
-max-width:700 ;
-margin: 20px auto;
-padding: 20;
+/*==========================
+
+Universal styling
+
+============================*/
+
+* {
+  Margin: 0;
+  Padding: 0;
+  Border: 0;
+  Font-family: sans-serif;
+  max-width: 900px;
+  }
+
+  header {
+  margin: 30px 30px;
+  text-color: black;
+  }
+  
+
+  .navbar a {
+    padding: 6px;
+    float: right;
+  }
+
+  header > p {
+    font-size: 25px;
+    float:left
+  }
+
+h1 {
+    margin: 0 auto 10px;
 }
 
-.left {
-  float: left;
-}
+main p {
+  line-height: 140% ;
+  }
+
 main {
   box-sizing: border-box;
   border: 3px solid blue;
-  width: 100%;
-  float: center;
-  padding: 20;
-  margin:20px auto; ;
+  background-color: #fff7df;
+  max-width: 500px;
+  padding: 20px 40px;
+  margin: 40px;
+  float: left;
 }
-img {
-  float:left
+
+main img {
+float: left;
+padding: 10px;
+width: 180px;
+height: 180px;
 }
-header > nav {
+
+
+
+ 
+aside {
+  background-color: #fff7df;
+  display: inline-block;
+  margin: 40px;
+  padding: 30px 30px;
+  text-align: center;
   float: right;
 }
+
+
+footer {
+  bottom:100px;
+  position: fixed;
+  text-align: center;
+  display: inline-flex;
+  margin: 30px 30px;
+}
+
